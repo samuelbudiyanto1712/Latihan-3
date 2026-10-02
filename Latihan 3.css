@@ -1,0 +1,262 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+/* CONTAINER UTAMA */
+.container {
+    width: 500px;
+    margin-left: 7px;
+    border: 1px solid #d99b32;
+}
+
+
+/* HEADER */
+header {
+    height: 50px;
+    background-color: #ffe5c8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px 0 30px;
+}
+
+
+/* LOGO */
+.logo {
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #333;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 8px;
+}
+
+
+/* NAVIGASI */
+nav {
+    display: flex;
+    gap: 8px;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO */
+.hero {
+    height: 132px;
+
+    background-color: #d8e6fa;
+    border-top: 1px solid #82a9df;
+    border-bottom: 1px solid #82a9df;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero p {
+    font-size: 8px;
+}
+
+
+/* JUDUL SECTION */
+.judul-section {
+    text-align: center;
+    padding-top: 14px;
+}
+
+.judul-section button {
+    width: 67px;
+    height: 36px;
+
+    background-color: white;
+    border: 1px solid #555;
+    border-radius: 6px;
+
+    font-size: 8px;
+}
+
+
+/* SERVICES */
+.services {
+    height: 143px;
+    background-color: #fff2c9;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 12px 25px 0 25px;
+}
+
+.service {
+    width: 85px;
+}
+
+.service h2 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+}
+
+.service p {
+    margin: 0;
+    font-size: 8px;
+    line-height: 11px;
+}
+
+
+/* ABOUT */
+.about {
+    height: 176px;
+    background-color: #e5d7ed;
+}
+
+.about-text {
+    text-align: center;
+    margin: 18px 15px 10px 15px;
+    font-size: 10px;
+}
+
+.about-content {
+    display: flex;
+    gap: 30px;
+    padding: 0 60px;
+}
+
+.about-content > div {
+    width: 105px;
+}
+
+.about-content h2 {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+.about-content p {
+    font-size: 8px;
+    line-height: 11px;
+    margin: 0;
+}
+
+
+/* PERFORMANCE */
+.performance-title {
+    position: relative;
+    left: 150px;
+}
+.performance {
+    position: relative;
+    left: 150px;
+    width: 105px;
+    height: 32px;
+
+    background-color: white;
+    border: 1px solid #333;
+
+    border-radius: 50% 30% 40% 20%;
+
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 8px;
+}
+
+
+/* CONTACT */
+.contact {
+    height: 150px;
+    background-color: #d8ead3;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 30px 0 30px;
+}
+
+.input-row input {
+    width: 132px;
+    height: 13px;
+    border: 1px solid #555;
+    border-radius: 2px;
+}
+
+.contact textarea {
+    display: block;
+
+    width: 282px;
+    height: 45px;
+
+    margin: 12px auto 5px auto;
+
+    border: 1px solid #555;
+    border-radius: 6px;
+
+    resize: none;
+}
+
+
+/* TOMBOL KIRIM */
+.kirim {
+    width: 70px;
+    height: 13px;
+
+    margin-left: 31px;
+
+    background-color: #075ee8;
+    color: white;
+
+    border: none;
+    border-radius: 2px;
+
+    font-size: 7px;
+}
+
+
+/* FOOTER */
+footer {
+    height: 31px;
+
+    background-color: #ffe5c8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 8px;
+}
+
+
